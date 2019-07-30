@@ -1,1 +1,1 @@
-# theaiproject.github.io
+# gohome.github.io
