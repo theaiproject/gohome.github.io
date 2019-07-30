@@ -1,0 +1,13 @@
+html {
+    background-color:rgb(118, 215, 196);
+    font-size:15px;
+}
+body {
+    background-color: rgb(215, 255, 247);
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 3px solid black;
+    text-align:center;
+}
+
