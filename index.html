@@ -3,16 +3,25 @@
 <head>
     <link href="style/style.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Ian Sasser">
-    <meta name="description" content="">
-    <meta property="og:description" content="">
-    <meta property="og:title" content="">
-    
-    
+    <meta name="description" content="Go Home is a MUD adventure game in which you have to make it from you work place to your family.">
+    <meta property="og:description" content="Go Home is a MUD adventure game in which you have to make it from you work place to your family.">
+    <meta property="og:title" content="Go Home">
+    <title>Go Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <p>This is my Test commit</p>
+    <h1>Welcome to Go Home!</h1>
+    <h3>Input your name and get ready!</h3>
+    <form onsubmit="getInput()">
+            Enter name: <input type="text">
+            <input type="submit">
+          </form> 
+          <script>
+                function getInput() {
+                console.log("Hooray!");
+                }
+                </script>
 </body>
 </html>
