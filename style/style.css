@@ -2,7 +2,8 @@ html {
     font-size:15px;
 }
 body {
-    width: 500px;
+    width: 75%;
+    height: 600px;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
     border-bottom: 3px solid black;
@@ -13,4 +14,16 @@ body {
 
 h1 {
     text-shadow: 3px 4px 3px;
+}
+
+p {
+    position: relative;
+}
+
+.scrollBox {
+    height:70%;
+    width:100%;
+    border:1px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
 }
