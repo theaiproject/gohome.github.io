@@ -16,14 +16,18 @@ h1 {
     text-shadow: 3px 4px 3px;
 }
 
-p {
-    position: relative;
-}
-
-.scrollBox {
+.scroll-box {
     height:70%;
     width:100%;
     border:1px solid #ccc;
     font:16px/26px Georgia, Garamond, Serif;
     overflow:auto;
 }
+
+.form {
+    text-align: left;
+}
+
+/* .log {
+    CSS for making logs go up
+} */

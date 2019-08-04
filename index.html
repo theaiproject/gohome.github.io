@@ -11,14 +11,17 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
-    <script src="app.js"></script>
-    <div class="scrollBox" id="scrollBox">
-
+<body onload="startGame()">
+    <script src="src/app.js"></script>
+    <div id="scrollBox" class="scroll-box">
+        <p id="p0" class="log">
+            Welcome to Go Home!
+        </p>
     </div>
-    <form onsubmit="getInput()">
-            Enter name: <input  type="text">
-            <input type="submit" class="submit" value="Let's Go!">
+    <form id="submissionForm" class="form" action="javascript:getInput()">
+        <input type="radio" name="submission" value="1" target="_self" checked> Drink orange juice<br>
+        <input type="radio" name="submission" value="2" target="_self"> Continue being a zombie<br>
+        <input type="submit" value="Submit" target="_self"/>
     </form>
 </body>
 </html>
