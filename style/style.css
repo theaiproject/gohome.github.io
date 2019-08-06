@@ -6,8 +6,7 @@ body {
     height: 600px;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
-    border-bottom: 3px solid black;
-    border-top: 3px solid black;
+    
     border-radius: 15px;
     text-align:center;
 }
@@ -22,10 +21,19 @@ h1 {
     border:1px solid #ccc;
     font:16px/26px Georgia, Garamond, Serif;
     overflow:auto;
+    
 }
 
 .form {
     text-align: left;
+    border-bottom: 3px solid black;
+    border-top:3px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    height:75px;
+    width:220px;
 }
 
 /* .log {
