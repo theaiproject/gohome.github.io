@@ -1,0 +1,119 @@
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: helvetica, arial, sans-serif;
+}
+
+
+/*Link to tutorial explaining this
+Does not work in glitch.com browser viewer but does in VSC
+
+https://www.youtube.com/watch?v=R1S_NhKkvGA
+*/
+
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+  }
+  
+  
+  .container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius:5px;
+    box-shadow: 0 0 10px 2px;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: hsl(15, 100%, 50%);
+    border: 2px solid hsl(15, 100%, 20%);
+    border-radius: 5px;
+    padding:15px 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: hsl(15, 100%, 45%);
+    
+  }
+  
+  .btn:active {
+    background: hsl(15, 100%, 30%);;
+    -webkit-box-shadow: inset hsl(15, 100%, 30%);
+       -moz-box-shadow: inset hsl(15, 100%, 30%);
+            box-shadow: inset hsl(15, 100%, 30%);
+     outline: none;
+    border-radius: 6px;
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+  }
+  
+  .container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: hsl(20, 100%, 50%);
+    border: 1px solid hsl(20, 100%, 30%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+  }
+  
+  .btn:hover {
+    border-color: black;
+  }
+  .btn:active {
+      background: hsl(15, 100%, 30%);;
+      -webkit-box-shadow: inset hsl(15, 100%, 30%);
+         -moz-box-shadow: inset hsl(15, 100%, 30%);
+              box-shadow: inset hsl(15, 100%, 30%);
+       outline: none;
+      border-radius: 6px;
+    }
