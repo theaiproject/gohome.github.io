@@ -1,33 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="style/style.css" rel="stylesheet">
-    <meta charset="UTF-8">
+  <head>
+    <title>Go Home</title>
     <meta name="author" content="Ian Sasser">
     <meta name="description" content="Go Home is a MUD adventure game in which you have to make it from you work place to your family.">
     <meta property="og:description" content="Go Home is a MUD adventure game in which you have to make it from you work place to your family.">
     <meta property="og:title" content="Go Home">
-    <title>Go Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-</head>
-
-<body onload="startGame()">
-    
-    <div id="scrollBox" class="scroll-box">
-        <p id="p0" class="log">
-            Welcome to Go Home!
-        </p>
-    </div>
-    <form id="submissionForm" class="form" action="javascript:getInput()">
-        <input type="radio" name="submission" value="1" target="_self" checked> Drink orange juice<br>
-        <input type="radio" name="submission" value="2" target="_self"> Continue being a zombie<br>
-        <input type="submit" value="Submit" target="_self"/>
-    </form>
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ol>
-    <script src="src/app.js"></script>
-</body>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="game.js"></script> 
+  </head>  
+  <body>
+    <div class="container">
+      <div id = "text">Text</div>
+      <div id = "option-buttons" class = "btn-grid">
+        <button class = "btn">Option 1</button>
+        <button class = "btn">Option 2</button>
+        <button class = "btn">Option 3</button>
+        <button class = "btn">Option 4</button>
+      </div>
+    </div>   
+  </body>
 </html>
